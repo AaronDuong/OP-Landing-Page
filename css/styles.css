@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 1 auto;
+	height: 100vh;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+
+.right-links {
+	display: flex;
+	font-size: 18px;
+	list-style: none;
+}
+
+.right-links a {
+	text-decoration: none;
+	color: #e5e7eb;
+	padding-left: 15px;
+}
+.logo {
+	font-size: 24px;
+	color: #f9faf8;
+}
+
+.hero {
+	display: flex;
+	background: #1f2937;
+	height: 350px;
+	padding: 70px 100px;
+	gap: 20px;
+}
+
+.left {
+	flex: 1;
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.left button {
+	background: #3882f6;
+	padding: 5px 10px;
+	color: white;
+	margin-top: 10px;
+	border-radius: 7px;
+	border: 0;
+}
+
+.hero-image {
+	flex: 1;
+	border: 2px solid gray;
+}
+
+.title {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.feature-heading {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+	padding: 40px;
+}
+
+.container {
+	display: flex;
+	padding: 0 100px;
+	height: 250px;
+	gap: 20px;
+}
+
+.box {
+	height: 150px;
+	width: 150px;
+	border: 2px solid blue;
+	border-radius: 10px;
+}
+
+.cards {
+	padding: 20px;
+}
+
+.cards p {
+	padding: 5px;
+}
+
+header,
+footer {
+	width: 100vw;
+	background: #1f2937;
+	padding: 20px 100px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #e5e7eb;
+}
