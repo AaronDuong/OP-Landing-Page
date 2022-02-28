@@ -80,18 +80,18 @@ main {
 	padding: 0 100px;
 	height: 250px;
 	gap: 20px;
+	justify-content: center;
 }
 
 .box {
 	height: 150px;
-	width: 150px;
 	border: 2px solid blue;
 	border-radius: 10px;
 }
 
-.cards {
+/* .cards {
 	padding: 20px;
-}
+} */
 
 .cards p {
 	padding: 5px;
